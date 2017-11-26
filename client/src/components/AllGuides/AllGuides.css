@@ -1,0 +1,39 @@
+#allGuides {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    padding: 24px 8px 0 8px;
+    margin: auto;
+    background: #f2fff2;
+    width: 800px;
+    border-radius: 0 0 8px 8px;
+}
+
+#allGuidesHeader {
+    margin: 0 24px 32px 24px;
+    padding: 0;
+    display: block;
+    width: 100%;
+}
+
+#allGuidesHeaderTitle {
+    border-bottom: 2px solid black;
+    margin: 0;
+    padding: 0;
+    animation: growRight 3s;
+    width: 100%;
+    font-size: 48px;
+    font-family: 'Source Serif Pro', serif;
+}
+
+#addGuideImage {
+	height: 100%;
+	width: auto;
+	display: block;
+	margin: auto;
+}
+
+#addGuide {
+	background: #c3c3c3;
+}
